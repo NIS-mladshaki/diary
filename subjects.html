@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="subjects.css">
+</head>
+<body>
+   <div class="project">
+        <div class="navbar">
+            <div class="navbar_left">
+                <img src="images/bup logo (2).png" alt="logo">
+               
+            </div>
+            <div class="navbar_right">
+                <ul>
+                    <li><a id="diary" href="#" >Дневник</a></li>
+                    <li><a href="#">Задачи</a></li>
+                    <li><button><a href="#">Профиль</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="main_text">
+            
+            <div class="container">
+               <h1>Выбери предмет:</h1>
+                    <div class="image-container">
+                        <div class="btn">
+                        <button class="button1">
+                            <p>Химия</p>
+                            <img src="images/pexels-chokniti-khongchum-2280571.jpg" alt="chemistry" class="chemistry">
+                           
+                            <div class="progress_bar">
+                                <p class="progressText">85%</p>
+                            </div>
+                              
+                        </button> </div>
+                        
+
+                    </div>
+                    <div class="image-container">
+                        <div class="btn">
+                        <button class="button1">
+                            <p>Физика</p>
+                            <img src="images/pexels-jeshootscom-714699.jpg" alt="Physics" class="physics">
+                            
+                            <div class="progress_bar">
+                                <p class="progressText">60%</p>
+                            </div>
+
+                        </button>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="image-container">
+                        <div class="btn">
+                        <button class="button1">
+                            <p>Биология</p>
+                            <img src="images/pexels-laker-6156448.jpg" alt="biology" class="biology">
+                            
+                            <div class="progress_bar">
+                                <p class="progressText">60%</p>
+                            </div>
+                        </button>
+                        </div>
+                       
+                    </div>
+                    <div class="image-container">
+                        <div class="btn">
+                        <button class="button1">
+                            <p>География</p>
+                            <img src="images/pexels-nastyasensei-335393.jpg" alt="geography" class="geography">
+                           
+                            <div class="progress_bar">
+                                <p class="progressText">70%</p>
+                            </div>
+                    </button>
+                    </div>
+                    
+                   </div>
+                   <div class="image-container">
+                    <div class="btn">
+                    <button class="button1">
+                        <p>Математика</p>
+                        <img src="images/pexels-photo-3729557.jpeg" alt="math" class="math">
+                       
+                        <div class="progress_bar">
+                            <p class="progressText">80%</p>
+                        </div>
+                </button>
+                </div>
+                
+               </div>
+               <div class="image-container">
+                <div class="btn">
+                <button class="button1">
+                    <p>История Казахстана</p>
+                    <img src="images/pexels-pixabay-36006.jpg" alt="kzhistory" class="kzhistory">
+                   
+                    <div class="progress_bar">
+                        <p class="progressText">90%</p>
+                    </div>
+                </button>
+                </div>
+                
+                </div>
+                <div class="image-container">
+                    <div class="btn">
+                    <button class="button1">
+                        <p>Казахский язык</p>
+                        <img src="images/pexels-caio-46274.jpg" alt="kzleiterature" class="kzleiterature">
+                      
+                        <div class="progress_bar">
+                            <p class="progressText">65%</p>
+                        </div>
+                    </button>
+                    </div>
+                    
+                    </div>
+                    <div class="image-container">
+                        <div class="btn">
+                        <button class="button1">
+                            <p>Всемирная история</p>
+                            <img src="images/pexels-pnklde-p-17209407.jpg" alt="world_history" class="world_history">
+                          
+                            <div class="progress_bar">
+                                <p class="progressText">65%</p>
+                            </div>
+                        </button>
+                        </div>
+                     </div>
+                        <div class="image-container">
+                        <div class="btn">
+                            <div class="btn">
+                                <button class="button1">
+                                    <p>Информатика</p>
+                                    <img src="images/pexels-pixabay-163125.jpg" alt="computer_science" class="computer_science">
+                                    
+                                    <div class="progress_bar">
+                                        <p class="progressText">30%</p>
+                                    </div>
+                                </button>
+                            </div>
+                                
+                        </div>
+                            
+                           
+
+                        </div>
+                        
+            </div>
+        </section>
+    </div>
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+    // Получаем все элементы с классом "progressText"
+    var progressTexts = document.querySelectorAll(".progressText");
+
+    // Для каждого элемента с классом "progressText"
+    progressTexts.forEach(function(progressText) {
+        // Извлекаем процентный текст из элемента
+        var percentage = progressText.innerText.replace('%', '');
+
+        // Создаем элемент прогресс-бара
+        var progressBar = document.createElement("div");
+        progressBar.classList.add("progress-bar");
+        progressBar.style.width = percentage + "%";
+
+        // Добавляем прогресс-бар в элемент с текстом прогресса
+        progressText.parentNode.appendChild(progressBar);
+    });
+});
+
+
+    </script>
+</body>
+</html>

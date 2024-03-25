@@ -1,0 +1,82 @@
+
+body {
+    
+    background-repeat: no-repeat; 
+    background-position:center;
+    background: 
+		linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)), 
+		url(https://krg.nis.edu.kz/wp-content/uploads/2017/02/NISH-g.-Karaganda-zip-408.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 150px;
+  } #City,#School {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } h1 {
+    text-align: center;
+  }
+  
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+  }
+  

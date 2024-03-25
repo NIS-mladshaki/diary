@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body {
+   font-family: "Comfortaa", sans-serif;
+  background-size: cover;
+    color:black;
+
+} *{
+    margin:0px;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background:#634ef8;
+    background-size: cover;
+    background-repeat: no-repeat;
+} .navbar_left {
+    display:flex;
+    align-items: center;
+}
+.navbar_left img {
+    width:120px;
+    height:90px;
+}   .navbar_left h1 {
+   
+    font-weight: 300;
+    font-size:1.7em;
+   color:white;
+}  .navbar_right ul {
+    list-style-type: none;
+    display: flex;
+   
+    align-items: center;
+} .navbar_right ul li {
+    padding:20px;
+} #diary {
+    color:rgb(19, 215, 255);
+   
+}
+.navbar_right a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    color:white;
+    font-family: "Comfortaa", sans-serif;
+} 
+ .navbar_right {
+    margin-right:40px;
+    display: flex;
+    align-items: center; 
+} .navbar_right button {
+    font-family: "Comfortaa", sans-serif;
+    width:150px;
+    height:40px;
+    border-radius: 10px;
+    border:1px solid;
+    border-color:white;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8em; 
+   transition: 0.7s;
+   font-family: "Comfortaa", sans-serif;
+   background: url('images/user1.svg') no-repeat;
+    background-size: 1.4em;
+    background-position: right 15px center;
+    padding-right: 40px; 
+}
+   
+ .navbar_right button:hover {
+    background-color: orange;
+    color:white;
+    letter-spacing: 0.05em;   
+} 
+
+
+ .navbar {
+    position: relative; 
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} .main_text h1 {
+    color:black ;
+    margin:20px 0 0 20px;
+} .container {
+   
+    max-width: 725px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+ 
+} .container button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0 10px;
+} .container button img {
+    margin-right: 3px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+} button img:hover {
+    transform: scale(1.1);
+}
+
+button p {
+    margin: 10px 0;
+    color: #666;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-family: "Comfortaa", sans-serif;
+} 
+
+
+.container h1 {
+        margin-bottom: 20px;
+        color: #333;
+    
+} 
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.button1:hover{
+    filter: brightness(50%);
+}
+ .basics {
+    margin-right:20px;
+} .navbar_left img {
+    width:100px;
+} .progress_bar .progress-bar {
+    height: 3px;
+    background-color: orange;
+} .progress-bar {
+    max-width:200;
+} .progress_bar {
+    width:200px;
+} .progress-bar p {
+    font-size: 1.2em;
+} .progress_bar {
+    display: none;
+}
+.button1:hover .progress_bar {
+    display: block;
+} 
