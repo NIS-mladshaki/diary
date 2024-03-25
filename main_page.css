@@ -205,5 +205,8 @@ body {
 .left_part {
     width: 60%; 
     padding: 20px; 
+}  .navbar_left img {
+    width:100px;
+    margin-top:90px;
 }
 
